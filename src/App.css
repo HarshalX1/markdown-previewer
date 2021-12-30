@@ -1,11 +1,36 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
 
 * {
+  /* font-size: 10px; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
   color: white;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.17rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.83rem;
+}
+
+h6 {
+  font-size: 0.75rem;
 }
 
 body {
@@ -59,7 +84,7 @@ body {
   border-radius: 20px;
   padding: 2rem;
   width: 60%;
-  height: 40rem;
+  height: fit-content;
   margin: auto;
 }
 
@@ -73,4 +98,43 @@ pre {
 
 code {
   color: aqua;
+}
+
+/*Responsive at 1440px START*/
+@media (max-width: 1440px) {
+  * {
+    font-size: 14px;
+  }
+}
+/*Responsive at 1440px END*/
+
+/*Responsive at 1024px START*/
+@media (max-width: 1024px) {
+  * {
+    font-size: 12px;
+  }
+
+  #editor {
+    width: 80%;
+  }
+
+  #preview {
+    width: 90%;
+  }
+}
+/*Responsive at 1024px END*/
+
+/*Responsive at 768px START*/
+@media (max-width: 768px) {
+  * {
+    font-size: 11px;
+  }
+}
+/*Responsive at 768px END*/
+
+/*Responsive at 480px START*/
+@media (max-width: 480px) {
+  * {
+    font-size: 10px;
+  }
 }
