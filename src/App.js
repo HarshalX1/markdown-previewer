@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { marked } from "marked";
-import "./App.css";
+import React, { Component } from 'react';
+import { marked } from 'marked';
+import './App.css';
 
 const placeholder = `# Welcome to React Markdown Previewer
 ## It uses the Marked library.
